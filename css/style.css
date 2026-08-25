@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f0f4f8;
+    color: #1f2937;
+}
+
+header {
+    background: #0f766e;
+    color: white;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.navBtn {
+    background: #0f766e;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin: 4px 4px 4px 0;
+}
+
+.navBtn:hover {
+    background: #115e59;
+}
+
+main {
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #0f766e;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px 0;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 13px;
+    color: #374151;
+    display: block;
+}
+
+button {
+    background: #0f766e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #115e59;
+}
+
+.slotsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.slotOption {
+    width: auto;
+    padding: 8px 12px;
+    background: #e5f4f2;
+    color: #0f766e;
+    border: 1px solid #0f766e;
+    border-radius: 6px;
+    font-weight: 500;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.slotOption input {
+    width: auto;
+    margin: 0;
+}
+
+.appointmentItem {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.appointmentItem form {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin: 0;
+}
+
+.appointmentItem select {
+    width: auto;
+    margin: 0;
+}
+
+.appointmentItem button {
+    width: auto;
+    margin: 0;
+    padding: 8px 12px;
+}
+
+.statusBadge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.statusPending { background: #f59e0b; }
+.statusConfirmed { background: #10b981; }
+.statusCancelled { background: #ef4444; }
+.statusCompleted { background: #6366f1; }
+
+.doctorRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.smallBtn {
+    width: auto;
+    padding: 6px 10px;
+    font-size: 12px;
+    background: #ef4444;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.smallBtn:hover {
+    background: #dc2626;
+}
