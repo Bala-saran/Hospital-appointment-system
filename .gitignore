@@ -1,0 +1,66 @@
+# Compiled files
+bin/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+config.properties
+secrets.properties
+
+# Database backups
+*.sql.bak
+*.sql.backup
+database_dump.sql
+
+# Build and output
+out/
+build/
+dist/
+.gradle/
+.maven/
+
+# OS files
+.DS_Store
+Thumbs.db
+.windows-build-tools
+
+# Logs
+*.log
+logs/
+
+# MySQL
+mysql/
+data/
+.mysql_history
+
+# Node (if any frontend dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Project specific
+DbProbe.class
+temp/
+cache/

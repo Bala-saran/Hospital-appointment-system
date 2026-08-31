@@ -6,18 +6,19 @@
 <title>Hospital Appointment System</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="homePage">
 
 <header>
     <h1>City Care Hospital</h1>
+    <nav><a class="navBtn" href="doctor_login.html">Doctor Login</a></nav>
 </header>
 
-<main>
-    <div class="card">
+<main class="homeMain">
+    <div class="card homeCard">
         <h2>Welcome</h2>
-        <p>Book appointments with our doctors, or manage schedules as admin.</p>
-        <a class="navBtn" href="patient_login.html">Patient Login</a>
-        <a class="navBtn" href="patient_register.html">Patient Register</a>
+        <p>Book an appointment with our doctors - no account needed.</p>
+        <a class="navBtn" href="/appointment/new">Book Appointment</a>
+        <a class="navBtn" href="/appointment/lookup">Check My Appointment</a>
         <a class="navBtn" href="admin_login.html">Admin Login</a>
     </div>
 </main>

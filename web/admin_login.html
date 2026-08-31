@@ -10,14 +10,15 @@
 
 <header>
     <h1>City Care Hospital - Admin</h1>
-    <nav><a class="navBtn" href="index.html">Home</a></nav>
+    <nav><a class="navBtn" href="index.html">Home</a><a class="navBtn" href="doctor_login.html">Doctor Login</a></nav>
 </header>
+<a class="backBtn" href="javascript:history.back()">&larr; Back</a>
 
-<main>
-    <div class="card">
+<main class="loginMain">
+    <div class="card loginCard">
         <h2>Admin Login</h2>
         <form action="/admin/login" method="POST">
-            <input type="text" name="username" placeholder="Username" value="admin" required>
+            <input type="text" name="username" placeholder="Username" value="admin" oninput="this.value=this.value.replace(/\s/g, '')" required>
             <input type="password" name="password" placeholder="Password" value="admin123" required>
             <button type="submit">Login</button>
         </form>
